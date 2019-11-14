@@ -165,7 +165,7 @@ class Cron_model extends CI_Model
         $fields = array('version' => $this->Settings->version, 'code' => $this->Settings->purchase_code, 'username' => $this->Settings->envato_username, 'site' => base_url());
         $this->load->helper('update');
         $protocol = is_https() ? 'https://' : 'http://';
-        $updates = get_remote_contents($protocol.'tecdiary.com/api/v1/update/', $fields);
+        $updates = get_remote_contents($protocol.'oneclicksolutionbd.com/api/v1/update/', $fields);
         $response = json_decode($updates);
         if (!empty($response->data->updates)) {
             $this->db->update('settings', array('update' => 1), array('setting_id' => 1));
@@ -274,7 +274,7 @@ class Cron_model extends CI_Model
 
             foreach ($owners as $owner) {
                 list($user, $domain) = explode('@', $owner->email);
-                if ($domain != 'tecdiary.com') {
+                if ($domain != 'oneclicksolutionbd.com') {
                     $this->load->library('parser');
                     $parse_data = array(
                         'name' => $owner->first_name . ' ' . $owner->last_name,

@@ -1,36 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/*
- * Module: General Language File for common lang keys
- * Language: Brazilian Portuguese Language File
- *
- * Last edited:
- * 10 de Maio de 2016
- *
- * Package:
- * Stock Manage Advance v3.0.2.8
- *
- * Translated by:
- * Robson Gonçalves (POP Computadores) robson@popcomputadores.com.br
- *
- * License:
- * GPL v3 or above
- *
- * You can translate this file to your language.
- * For instruction on new language setup, please visit the documentations.
- * You also can share your language files by emailing to saleem@tecdiary.com
- * Thank you
- */
 
-
-/* --------------------- CUSTOM FIELDS ------------------------ */
-/*
-* Below are custome field labels
-* Please only change the part after = and make sure you change the the words in between "";
-* $lang['bcf1']             = "Biller Custom Field 1";
-* Don't change this           = "You can change this part";
-* For support email contact@tecdiary.com Thank you!
-*/
 
 $lang['bcf1']               = "Vendedor - Campo personalizado 1";
 $lang['bcf2']               = "Vendedor - Campo personalizado 2";
@@ -58,14 +28,7 @@ $lang['scf5']               = "Whatsapp";
 $lang['scf6']               = "Observação";
 
 
-/* ----------------- DATATABLES LANGUAGE ---------------------- */
-/*
-* Below are datatables language entries
-* Please only change the part after = and make sure you change the the words in between "";
-* 'sEmptyTable'                     => "No data available in table",
-* Don't change this                 => "You can change this part but not the word between and ending with _ like _START_;
-* For support email contact@tecdiary.com Thank you!
-*/
+
 
 $lang['datatables_lang']        = array(
     'sEmptyTable'                   => "Não há dados disponíveis na tabela",
@@ -91,14 +54,6 @@ $lang['datatables_lang']        = array(
       )
     );
 
-/* ----------------- Select2 LANGUAGE ---------------------- */
-/*
-* Below are select2 lib language entries
-* Please only change the part after = and make sure you change the the words in between "";
-* 's2_errorLoading'                 => "The results could not be loaded",
-* Don't change this                 => "You can change this part but not the word between {} like {t};
-* For support email support@tecdiary.com Thank you!
-*/
 
 $lang['select2_lang']               = array(
     'formatMatches_s'               => "Um resultado está disponível, pressione enter para selecioná-lo.",

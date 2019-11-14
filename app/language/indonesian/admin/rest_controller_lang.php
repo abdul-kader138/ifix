@@ -1,19 +1,5 @@
 <?php
 
-/*
- * Language: Indonesia
- * Module: rest controller
- * 
- * Last edited:
- * 8th November 2018
- *
- * Package:
- * Stock Manage Advance v3.0
- * 
- * Translated by:
- * Bram Andrian (barulaku) bram.andrian@gmail.com
- *
- */
 
 $lang['text_rest_invalid_api_key'] = 'Kata sandi API tidak tersedia atau kata sandi tidak sah';
 $lang['text_rest_invalid_credentials'] = 'Keredensial tidak sah';

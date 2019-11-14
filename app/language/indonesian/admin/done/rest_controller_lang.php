@@ -8,7 +8,7 @@
  * 8th November 2018
  *
  * Package:
- * Stock Manage Advance v3.0
+ *
  * 
  * Translated by:
  * Bram Andrian (barulaku) bram.andrian@gmail.com

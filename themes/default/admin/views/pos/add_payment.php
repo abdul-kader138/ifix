@@ -191,7 +191,7 @@
                 $('.pcash_1').show();
                 $('#amount_1').focus();
             } else if (p_val == 'CC' || p_val == 'stripe' || p_val == 'ppp' || p_val == 'authorize') {
-                if (p_val == 'CC') {
+                if (p_val == 'CC' || p_val == 'Debit_Card') {
                     $('#ppp-stripe').hide();
                 } else {
                     $('#ppp-stripe').show();

@@ -1,34 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/*
- * Package:
- * Stock Manage Advance v3.0
- * Language: Indonesia
- * Module: General Language File for common lang keys
- * 
- * Last edited:
- * 8th November 2018
- *
- * Package:
- * Stock Manage Advance v3.0
- * 
- * Translated by:
- * Bram Andrian (barulaku) bram.andrian@gmail.com
- *
- * You can translate this file to your language.
- * For instruction on new language setup, please visit the documentations.
- * You also can share your language files by emailing to saleem@tecdiary.com
- * Thank you
- */
 
-/* --------------------- CUSTOM FIELDS ------------------------ */
-/*
-* Below are custome field labels
-* Please only change the part after = and make sure you change the the words in between "";
-* $lang['bcf1']                         = "Biller Custom Field 1";
-* Don't change this                     = "You can change this part";
-* For support email contact@tecdiary.com Thank you!
-*/
 
 $lang['bcf1']                           = "Biller Custom Field 1";
 $lang['bcf2']                           = "Biller Custom Field 2";

@@ -1,22 +1,5 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/*
- * Language: Simplified Chinese
- * Module: Reports
- * Translator: Wei Long Ueng (TAIWAN)
- *
- * Last edited:
- * 1st September 2016
- *
- * Package:
- * Stock Manage Advance v3.0
- *
- * You can translate this file to your language.
- * For instruction on new language setup, please visit the documentations.
- * You also can share your language files by emailing to saleem@tecdiary.com
- * Thank you
- */
-
 
 $lang['profit_estimate']            = "预期利润";
 $lang['warehouse_stock_heading']    = "仓库库存价值基於成本与售价，请选择右边的仓库来获取选定仓库的库存价值。";

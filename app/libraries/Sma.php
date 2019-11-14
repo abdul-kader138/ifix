@@ -1,13 +1,5 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
-/*
- *  ==============================================================================
- *  Author    : Mian Saleem
- *  Email     : saleem@tecdiary.com
- *  For       : Stock Manager Advance
- *  Web       : http://tecdiary.com
- *  ==============================================================================
- */
 
 class Sma
 {
@@ -278,7 +270,7 @@ class Sma
         return $this->bc->generate($text, $bcs, $height, $drawText, $get_be, $re);
     }
 
-    public function qrcode($type = 'text', $text = 'http://tecdiary.com', $size = 2, $level = 'H', $sq = null)
+    public function qrcode($type = 'text', $text = 'http://www.oneclicksolutionbd.com', $size = 2, $level = 'H', $sq = null)
     {
         $file_name = 'assets/uploads/qrcode' . $this->session->userdata('user_id') . ($sq ? $sq : '') . ($this->Settings->barcode_img ? '.png' : '.svg');
         if ($type == 'link') {

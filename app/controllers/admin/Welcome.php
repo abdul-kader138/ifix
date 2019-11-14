@@ -36,13 +36,13 @@ class Welcome extends MY_Controller
         $this->data['suppliers'] = $this->db_model->getLatestSuppliers();
         $this->data['chatData'] = $this->db_model->getChartData();
         $this->data['stock'] = $this->db_model->getStockValue();
-        $this->data['bs'] = $this->db_model->getBestSeller();
+//        $this->data['bs'] = $this->db_model->getBestSeller();
         $this->data['total_purchases'] = $this->db_model->getTotalPurchases();
         $this->data['total_sales'] = $this->db_model->getTotalSales();
         $this->data['total_expenses'] = $this->db_model->getTotalExpenses();
         $lmsdate = date('Y-m-d', strtotime('first day of last month')) . ' 00:00:00';
         $lmedate = date('Y-m-d', strtotime('last day of last month')) . ' 23:59:59';
-        $this->data['lmbs'] = $this->db_model->getBestSeller($lmsdate, $lmedate);
+//        $this->data['lmbs'] = $this->db_model->getBestSeller($lmsdate, $lmedate);
         $bc = array(array('link' => '#', 'page' => lang('dashboard')));
         $meta = array('page_title' => lang('dashboard'), 'bc' => $bc);
         $this->page_construct('dashboard', $meta, $this->data);

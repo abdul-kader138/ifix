@@ -1,20 +1,6 @@
 <?php defined('BASEPATH') OR exit('No direct script access allowed');
 
-/*
- * Language: English
- * Module: SMS
- *
- * Last edited:
- * 23rd October 2017
- *
- * Package:
- * Stock Manage Advance v3.0
- *
- * You can translate this file to your language.
- * For instruction on new language setup, please visit the documentations.
- * You also can share your language files by emailing to saleem@tecdiary.com
- * Thank you
- */
+
 
 // Please keep the translation  line length below 150 as only 160 character per sms or it will be multiple sms charges
 // Available variable options for sales related sms:

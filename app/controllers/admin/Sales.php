@@ -1952,7 +1952,9 @@ class Sales extends MY_Controller
                 $this->sms->paymentReceived($sale->id, $payment['reference_no'], $payment['amount']);
             }
             $this->session->set_flashdata('message', lang("payment_added"));
-            redirect($_SERVER["HTTP_REFERER"]);
+//            redirect($_SERVER["HTTP_REFERER"]);
+            if($sale->repair_status =='1')admin_redirect("sales/repair_list");
+            else admin_redirect($sale->pos ? "pos/sales" : "sales");
         } else {
 
             $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));
@@ -2043,7 +2045,9 @@ class Sales extends MY_Controller
 
         if ($this->form_validation->run() == true && $this->sales_model->updatePayment($id, $payment, $customer_id)) {
             $this->session->set_flashdata('message', lang("payment_updated"));
-            admin_redirect("sales");
+            if($sale->repair_status =='1')admin_redirect("sales/repair_list");
+            else admin_redirect($sale->pos ? "pos/sales" : "sales");
+//            admin_redirect("sales");
         } else {
 
             $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));

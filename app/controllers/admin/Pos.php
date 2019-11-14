@@ -1414,7 +1414,9 @@ class Pos extends MY_Controller
             } else {
                 $this->session->set_flashdata('error', lang("payment_failed"));
             }
-            admin_redirect("pos/sales");
+            if($sale->repair_status =='1')admin_redirect("sales/repair_list");
+            else admin_redirect($sale->pos ? "pos/sales" : "sales");
+//            admin_redirect("pos/sales");
         } else {
 
             $this->data['error'] = (validation_errors() ? validation_errors() : $this->session->flashdata('error'));

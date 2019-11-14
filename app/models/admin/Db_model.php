@@ -155,7 +155,7 @@ class Db_model extends CI_Model
 
         $this->db
             ->select("product_name, product_code")
-            ->select_sum('quantity')
+            ->select_count('id')
             ->from('sale_items')
             ->join('sales', 'sales.id = sale_items.sale_id', 'left')
             ->where('date >=', $start_date)

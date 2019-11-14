@@ -1,7 +1,7 @@
 {
-	"name": "tecdiary/sma",
+	"name": "oneclick/sma",
 	"version": "3.4.12",
-	"description": "Stock Manager Advance",
+	"description": "ASMS",
 	"type": "project",
 	"require": {
 		"php": "^7.1.3",
@@ -19,8 +19,8 @@
 	"license": "Commercial License",
 	"authors": [
 		{
-			"name": "Mian Saleem",
-			"email": "saleem@tecdiary.com"
+			"name": "",
+			"email": ""
 		}
 	]
 }

@@ -8,7 +8,7 @@
  * 9th November 2017
  *
  * Package:
- * Stock Manage Advance v3.0
+ *
  *
  * You can translate this file to your language.
  * For instruction on new language setup, please visit the documentations.

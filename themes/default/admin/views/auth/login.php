@@ -71,7 +71,7 @@
                             <div class="textbox-wrap form-group">
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                    <input type="text" value="<?= DEMO ? 'owner@tecdiary.com' : ''; ?>" required="required" class="form-control" name="identity"
+                                    <input type="text" value="" required="required" class="form-control" name="identity"
                                     placeholder="<?= lang('username') ?>"/>
                                 </div>
                             </div>
@@ -120,12 +120,6 @@
                         </div>
                         <?php echo form_close(); ?>
                         <div class="clearfix"></div>
-                    </div>
-                    <div class="login-form-links link2">
-                        <h4 class="text-danger"><?= lang('forgot_your_password') ?></h4>
-                        <span><?= lang('dont_worry') ?></span>
-                        <a href="#forgot_password" class="text-danger forgot_password_link"><?= lang('click_here') ?></a>
-                        <span><?= lang('to_rest') ?></span>
                     </div>
                     <?php
                     if ($Settings->allow_reg) {
@@ -297,12 +291,6 @@
         }
         ?>
 
-        <?php if (DEMO) { ?>
-            <div style="color:#fff;padding-top:30px;text-align:center;">
-              <h4 style="color:#f4f5f6;font-size:18px;line-height:24px;">Check out our latest item<br>Simple Business Manager &nbsp; [ <a href="https://tecdiary.com/products/simple-business-manager" target="_top" style="color:#fff;">Details</a> ] &nbsp; [ <a href="https://sbm.tecdiary.com/" target="_top" style="color:#fff;">Demo</a> ]</h3>
-                <a href="https://sbm.tecdiary.com/" target="_top"><img src="https://tecdiary.net/images/hotlink-ok/sbm.png" alt="Simple Business Manager" style="border-radius:10px !important;max-width:100%;"></a>
-            </div>
-        <?php } ?>
 
     </div>
     <script src="<?= $assets ?>js/jquery.js"></script>

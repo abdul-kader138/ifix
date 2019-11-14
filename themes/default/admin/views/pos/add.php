@@ -2042,7 +2042,7 @@
                 bootbox.alert('<?=lang('Please Enter Card No')?>');
                 return false;
             }
-            return false;
+          //  return false;
 
             if (total_paid == 0 || total_paid < grand_total) {
                 bootbox.confirm("<?=lang('paid_l_t_payable');?>", function (res) {
